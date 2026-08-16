@@ -1,0 +1,29 @@
+2026-08-07T08:49:12.334Z [INFO] ----------------------invoke install_maven----------------------
+2026-08-07T08:49:12.335Z [INFO] [Tool.invoke]({name: install_maven, input: {
+  "version": "latest",
+  "dest": "C:\\Users\\Dell\\.maven",
+  "projectPath": "c:\\Users\\Dell\\Downloads\\Employee-Management-System-main\\Employee-Management-System-main"
+}}).
+2026-08-07T08:49:12.335Z [INFO] [Tool.invoke] do invoke.
+2026-08-07T08:49:20.928Z [INFO] [Tool.invoke]({result: {
+  "result": {
+    "name": "mvn",
+    "path": "C:\\Users\\Dell\\.maven\\maven-3.10.0-rc-1\\bin",
+    "version": "3.10.0-rc-1"
+  },
+  "message": "Maven latest is installed at C:\\Users\\Dell\\.maven\\maven-3.10.0-rc-1\\bin",
+  "telemetry": {
+    "tool": "Maven",
+    "version": "latest"
+  }
+}}).
+2026-08-07T08:49:20.929Z [INFO] ----------------------invoked install_maven----------------------
+2026-08-07T08:50:25.349Z [INFO] ----------------------invoke list_jdks----------------------
+2026-08-07T08:50:25.350Z [INFO] [Tool.invoke]({name: list_jdks, input: {
+  "projectPath": "c:\\Users\\Dell\\Downloads\\Employee-Management-System-main\\Employee-Management-System-main"
+}}).
+2026-08-07T08:50:25.350Z [INFO] [Tool.invoke] do invoke.
+2026-08-07T08:50:25.370Z [INFO] [Tool.invoke]({result: {
+  "message": "We found following jdks in your system:\n\n1. Java 24.0.2\n   📁 Path: C:\\Program Files\\Java\\jdk-24\\bin\n   🏷️ Source: others\n\nTotal: 1 JDK installation(s) found"
+}}).
+2026-08-07T08:50:25.370Z [INFO] ----------------------invoked list_jdks----------------------
